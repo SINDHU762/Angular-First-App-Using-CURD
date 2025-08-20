@@ -40,3 +40,12 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+# Electron build outputs
+/release
+/build
+*.exe
+*.asar
+*.dll
+*.pak
