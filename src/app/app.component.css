@@ -1,0 +1,16 @@
+/* Default for web */
+body {
+  font-size: 16px;
+}
+
+/* Adjustments for small screens (APK) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}

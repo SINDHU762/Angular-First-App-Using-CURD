@@ -1,0 +1,13 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.example.myapp
+productName: MyElectronApp
+files:
+  - filter:
+      - dist/browser
+      - main.js
+      - package.json
+win:
+  target: nsis
+electronVersion: 36.2.1

@@ -1,0 +1,27 @@
+{
+    "/api": {
+      "target": "https://rf-staging.tvs-e.in/",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    },
+    "/UATapi": {
+      "target": "https://uat-basic.tvs-e.in/",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/UATapi": ""
+      }
+    },
+    "/Localapi": {
+      "target": "http://localhost:53103/",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/Localapi": ""
+      }
+    }
+  }
+  
